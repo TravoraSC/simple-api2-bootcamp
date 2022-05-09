@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url('wavy.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 3% 20% 0 20%;
+  color: black;
+}
+
+h1,
+h2,
+p,
+div {
+  align-self: center;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 6rem;
+}
+
+
+.caption {
+  font-size: 1.5rem;
+  font-weight: 100;
+  font-style: italic;
+  margin: 0 1rem 1rem 1rem;
+}
+
+button {
+  border-radius: 13px;
+  width: 8vw;
+  height: 3vh;
+  background-color: #dbade754;
+  margin-top: 2rem;
+}
+
+.quote {
+  text-align: center;
+  margin: 2rem;
+  padding: 0 3rem;
+  font-size: 2rem;
+
+}
+
+span {
+  text-align: center;
+}
+
+
+/* ul {
+  height: 0;
+  margin: 0;
+}
+
+li {
+  font-size: 1.5rem;
+  margin: 1rem;
+} */
